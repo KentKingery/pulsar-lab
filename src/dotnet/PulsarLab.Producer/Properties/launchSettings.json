@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PulsarLab.Producer": {
+      "commandName": "Project",
+      "commandLineArgs": "message1"
+    }
+  }
+}

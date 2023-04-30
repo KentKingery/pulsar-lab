@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PulsarLab.CLI": {
+      "commandName": "Project",
+      "commandLineArgs": "tenant"
+    }
+  }
+}
