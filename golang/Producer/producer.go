@@ -25,7 +25,7 @@ func main() {
 	}
 
 	producer, err := client.CreateProducer(pulsar.ProducerOptions{
-    	Topic: "persistent://acmecode/lab/partitions",
+    	Topic: "persistent://acmecode/lab/general.notify",
 	})
 
 	if err != nil {

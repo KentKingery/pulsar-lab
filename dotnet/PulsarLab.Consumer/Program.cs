@@ -20,7 +20,7 @@ var client = PulsarClient.Builder()
 Log.Debug("Creating Pulsar consumer");
 var consumer = client.NewConsumer()
                      .SubscriptionName("dotnet-consumer")
-                     .Topic("persistent://acmecode/lab/partitions")
+                     .Topic("persistent://acmecode/lab/general.notify")
                      .Create();
 
 await foreach (var message in consumer.Messages())

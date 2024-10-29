@@ -18,7 +18,7 @@ var client = PulsarClient.Builder()
 
 Log.Debug("Creating Pulsar producer");
 var producer = client.NewProducer()
-                     .Topic("persistent://acmecode/lab/partitions")
+                     .Topic("persistent://acmecode/lab/general.notify")
                      .Create();
 
 
